@@ -4,6 +4,7 @@ defaults:
   formatter: social_swiftmailer
 _core:
   default_config_hash: IhwTepsVwtbtbcT5GzQKhCXDCRvbk3MNkWqPiuiZ10s
+filter_format: plain_text
 modules:
   swiftmailer:
     none:

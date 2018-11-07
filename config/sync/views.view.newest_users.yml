@@ -1,4 +1,4 @@
-uuid: 9be1129a-d0f1-4e03-9a17-0805f1f7bd60
+uuid: b31afe3b-7827-4e9b-9350-f598888273a0
 langcode: en
 status: true
 dependencies:
@@ -258,6 +258,7 @@ display:
         - url.query_args
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.profile.profile.autocomplete_item'
         - 'config:core.entity_view_display.profile.profile.compact'
         - 'config:core.entity_view_display.profile.profile.compact_notification'
         - 'config:core.entity_view_display.profile.profile.compact_teaser'
@@ -308,6 +309,7 @@ display:
         - 'languages:language_interface'
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.profile.profile.autocomplete_item'
         - 'config:core.entity_view_display.profile.profile.compact'
         - 'config:core.entity_view_display.profile.profile.compact_notification'
         - 'config:core.entity_view_display.profile.profile.compact_teaser'
@@ -359,6 +361,7 @@ display:
         - url.query_args
         - user.permissions
       tags:
+        - 'config:core.entity_view_display.profile.profile.autocomplete_item'
         - 'config:core.entity_view_display.profile.profile.compact'
         - 'config:core.entity_view_display.profile.profile.compact_notification'
         - 'config:core.entity_view_display.profile.profile.compact_teaser'

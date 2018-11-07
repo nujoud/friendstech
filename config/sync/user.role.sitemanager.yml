@@ -1,4 +1,4 @@
-uuid: 382ac5fd-76cc-48ac-8971-162c9c6144bb
+uuid: 72001602-ad4a-401a-ae44-9addf5300387
 langcode: en
 status: true
 dependencies: {  }
@@ -85,6 +85,7 @@ permissions:
   - 'edit terms in interests'
   - 'edit terms in profile_tag'
   - 'edit terms in topic_types'
+  - 'flag follow_content'
   - 'manage all groups'
   - 'override disabled public visibility'
   - 'override event authored by option'
@@ -116,6 +117,7 @@ permissions:
   - 'select account cancellation method'
   - 'set social group settings'
   - 'skip comment approval'
+  - 'unflag follow_content'
   - 'update any profile profile'
   - 'update own profile profile'
   - 'use text format basic_html'

@@ -1,4 +1,4 @@
-uuid: f7c34f7d-b443-49ae-a6a9-84dcf0017e49
+uuid: 4e5b966a-0e87-437d-a542-4fe39c476fbd
 langcode: en
 status: true
 dependencies:
@@ -319,6 +319,7 @@ display:
         - route
         - url
       tags:
+        - 'config:core.entity_view_display.profile.profile.autocomplete_item'
         - 'config:core.entity_view_display.profile.profile.compact'
         - 'config:core.entity_view_display.profile.profile.compact_notification'
         - 'config:core.entity_view_display.profile.profile.compact_teaser'
@@ -346,6 +347,7 @@ display:
         - route
         - url
       tags:
+        - 'config:core.entity_view_display.profile.profile.autocomplete_item'
         - 'config:core.entity_view_display.profile.profile.compact'
         - 'config:core.entity_view_display.profile.profile.compact_notification'
         - 'config:core.entity_view_display.profile.profile.compact_teaser'

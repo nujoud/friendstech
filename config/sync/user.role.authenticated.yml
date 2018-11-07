@@ -1,4 +1,4 @@
-uuid: e54d506f-689f-468e-90f9-878e31faede6
+uuid: be903383-62ef-43c8-9d3a-5440ef9c4ded
 langcode: en
 status: true
 dependencies: {  }
@@ -39,11 +39,13 @@ permissions:
   - 'edit own event content'
   - 'edit own post entities'
   - 'edit own topic content'
+  - 'flag follow_content'
   - 'override event published option'
   - 'override topic published option'
   - 'post comments'
   - 'select account cancellation method'
   - 'skip comment approval'
+  - 'unflag follow_content'
   - 'update own profile profile'
   - 'use text format basic_html'
   - 'use text format simple_text'

@@ -1,4 +1,4 @@
-uuid: 138e57c8-a5fe-4f4e-ad8b-e973ef037624
+uuid: 214b0fde-b76e-4ce8-b2bc-e201f8c64a62
 langcode: en
 status: true
 dependencies: {  }
@@ -61,6 +61,7 @@ permissions:
   - 'edit own post entities'
   - 'edit own topic content'
   - 'edit profile tags'
+  - 'flag follow_content'
   - 'manage all groups'
   - 'override disabled public visibility'
   - 'override event authored by option'
@@ -91,6 +92,7 @@ permissions:
   - 'revert topic revisions'
   - 'select account cancellation method'
   - 'skip comment approval'
+  - 'unflag follow_content'
   - 'update any profile profile'
   - 'update own profile profile'
   - 'use text format basic_html'
