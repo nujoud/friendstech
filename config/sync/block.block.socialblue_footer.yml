@@ -1,0 +1,24 @@
+uuid: e6dd083e-15ac-4a03-9dba-9394250c4dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - socialblue
+id: socialblue_footer
+theme: socialblue
+region: footer
+weight: -23
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

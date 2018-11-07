@@ -1,0 +1,10 @@
+uuid: 439a88c0-27a6-4da2-b41a-214d1732fc25
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_event
+id: event_enrollment.token
+label: Token
+targetEntityType: event_enrollment
+cache: true

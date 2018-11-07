@@ -1,0 +1,16 @@
+uuid: 1acb913a-9b28-439d-81f8-42f2a575ac78
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6-UbVkbj-KqMtzRTQW7ubMUlNAks72UnQ0SRIoLRlgw
+id: profile
+label: Profile
+registration: false
+multiple: false
+roles:
+  authenticated: '0'
+  administrator: '0'
+weight: 0
+use_revisions: false
+description: 'The default Open Social profile type'

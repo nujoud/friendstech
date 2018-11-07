@@ -1,0 +1,10 @@
+uuid: ae52398f-324d-4459-b63c-b223661d08d0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hD_X55d0D-MMgKFM6COxkqKRh3Rxu9YOLpgCOPFiRXo
+id: comment
+label: Comment
+target_entity_type_id: node
+description: 'Default comment type.'
