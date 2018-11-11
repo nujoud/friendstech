@@ -8,8 +8,10 @@ module:
   address: 0
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  alternative_frontpage: 0
   block: 0
   block_content: 0
+  block_field: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
@@ -24,6 +26,7 @@ module:
   editor: 0
   entity: 0
   entity_access_by_field: 0
+  entity_reference_revisions: 0
   features: 0
   field: 0
   field_group: 0
@@ -61,6 +64,7 @@ module:
   social_file_private: 0
   social_follow_content: 0
   social_font: 0
+  social_landing_page: 0
   social_like: 0
   social_mentions: 0
   social_page: 0
@@ -86,6 +90,7 @@ module:
   menu_link_content: 1
   social_group: 2
   views: 10
+  paragraphs: 11
   improved_theme_settings: 50
   social: 1000
 theme:
