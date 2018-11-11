@@ -49,4 +49,5 @@ hidden:
   created: true
   field_group_description: true
   label: true
+  langcode: true
   uid: true
