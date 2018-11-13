@@ -4,13 +4,6 @@ status: true
 dependencies:
   config:
     - group.content_type.closed_group-group_node-topic
-  module:
-    - field_layout
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: zmrBnWW9Rpbmd5G7bdFb5XBZoQ3r6CYlAJYNWLvu5X0
 id: group_content.closed_group-group_node-topic.default

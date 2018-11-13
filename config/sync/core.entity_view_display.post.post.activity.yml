@@ -11,15 +11,9 @@ dependencies:
     - field.field.post.post.field_visibility
     - social_post.post_type.post
   module:
-    - field_layout
-    - layout_discovery
     - social_post
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: pLYf_ksbMuPRgvNAYgZPNbnvd1psyqdXTjer1T1J9m0
 id: post.post.activity

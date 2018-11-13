@@ -13,14 +13,8 @@ dependencies:
     - node.type.page
   module:
     - comment
-    - field_layout
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: mFCSpulmzlSGm7fwxAQw9AjejhBc6S4msm3SLg0SNEk
 id: node.page.search_index

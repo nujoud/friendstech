@@ -6,16 +6,10 @@ dependencies:
     - field.field.font.font.field_fallback
     - field.field.font.font.field_fonts
   module:
-    - field_layout
     - file
-    - layout_discovery
     - options
     - social_font
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 1NuPL26R5zoBZ-vVhP-fjP5_78rD48oGQ-F6URLmVMc
 id: font.font.default

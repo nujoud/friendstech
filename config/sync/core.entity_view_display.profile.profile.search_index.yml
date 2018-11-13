@@ -20,13 +20,7 @@ dependencies:
     - profile.type.profile
   module:
     - address
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: MzVMB3kYLr4btfNy6qFN5NCF_v_dGJAuOJHH9lD1tjg
 id: profile.profile.search_index

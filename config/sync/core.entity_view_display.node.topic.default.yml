@@ -12,16 +12,10 @@ dependencies:
     - field.field.node.topic.field_topic_type
     - node.type.topic
   module:
-    - field_layout
     - file
     - group_core_comments
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: sv3qhFymppZHJIwPKaK2T5ERbQ7MQ0ga2W83g9pV9Fs
 id: node.topic.default

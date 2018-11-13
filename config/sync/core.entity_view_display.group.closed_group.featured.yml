@@ -12,13 +12,7 @@ dependencies:
     - image.style.social_featured
   module:
     - address
-    - field_layout
     - image
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: yV8yKt4HofZHpAachTI-6Y8R-CXoRfzxChqmqCyt3d4
 id: group.closed_group.featured

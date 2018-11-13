@@ -7,13 +7,7 @@ dependencies:
     - core.entity_view_mode.comment.activity_comment
     - field.field.comment.comment.field_comment_body
   module:
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: UCH4wjLm2bBbHP6hQrLLcnkU7wU1OEpJYJKiKS0Xwwo
 id: comment.comment.activity_comment

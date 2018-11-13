@@ -6,15 +6,11 @@ dependencies:
     - core.entity_view_mode.node.featured
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
+    - field.field.node.landing_page.field_map
+    - field.field.node.landing_page.field_plugin
     - node.type.landing_page
   module:
-    - field_layout
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: nvrQu61YlL3ZU9opxUd5p1uEB7TQiKkdu5S2x_mg8Fk
 id: node.landing_page.featured
@@ -57,6 +53,8 @@ content:
 hidden:
   field_content_visibility: true
   field_landing_page_section: true
+  field_map: true
+  field_plugin: true
   flag_follow_content: true
   langcode: true
   links: true

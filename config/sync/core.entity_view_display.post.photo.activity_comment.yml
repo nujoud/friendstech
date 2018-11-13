@@ -13,15 +13,9 @@ dependencies:
     - image.style.social_post_photo
     - social_post.post_type.photo
   module:
-    - field_layout
     - image
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: vY2ylqtrp-IlDa8ojm5kjO0BYayPFXq-Htsa3X6nhKI
 id: post.photo.activity_comment

@@ -13,13 +13,7 @@ dependencies:
     - field.field.activity.activity.field_activity_status
   module:
     - activity_creator
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 0YiTurZ0UpGA4ZDwc0_0xtZpbemlq_-OTDcFrht6PeE
 id: activity.activity.notification

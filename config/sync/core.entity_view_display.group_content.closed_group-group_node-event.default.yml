@@ -4,13 +4,6 @@ status: true
 dependencies:
   config:
     - group.content_type.closed_group-group_node-event
-  module:
-    - field_layout
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 0Wb4h2Y3ejADgYgymPN8ZrLA3A_yrpRjWCV_ccyTCF8
 id: group_content.closed_group-group_node-event.default

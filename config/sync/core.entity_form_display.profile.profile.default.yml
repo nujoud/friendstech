@@ -21,9 +21,7 @@ dependencies:
   module:
     - address
     - field_group
-    - field_layout
     - image_widget_crop
-    - layout_discovery
     - telephone
     - text
 third_party_settings:
@@ -84,9 +82,6 @@ third_party_settings:
         required_fields: true
         id: contact
         classes: scollspy
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: q5dRMlfrlHczeboqgnggDsIvBp1Z0aun2cMsa4qIDbQ
 id: profile.profile.default

@@ -10,14 +10,8 @@ dependencies:
     - paragraphs.paragraphs_type.featured
   module:
     - dynamic_entity_reference
-    - field_layout
-    - layout_discovery
     - link
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: Axry9YF_w0R_CaZFed-HUy_jF_UZeGMQ2VMesXMR0pc
 id: paragraph.featured.default

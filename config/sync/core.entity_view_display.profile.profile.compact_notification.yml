@@ -20,13 +20,7 @@ dependencies:
     - image.style.social_medium
     - profile.type.profile
   module:
-    - field_layout
     - image
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: UyCenmNx1bHzT9tX9bMWkl3aoJgkVtTQtq3YH3ZGzns
 id: profile.profile.compact_notification

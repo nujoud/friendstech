@@ -13,15 +13,9 @@ dependencies:
     - image.style.social_x_large
     - node.type.topic
   module:
-    - field_layout
     - image
-    - layout_discovery
     - social_core
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: AuMtDmEFDXoh8y5-NLJosvuX0ocwUopQS06uaG77r60
 id: node.topic.activity

@@ -12,16 +12,10 @@ dependencies:
     - image.style.social_post_photo
     - social_post.post_type.photo
   module:
-    - field_layout
     - image
-    - layout_discovery
     - social_post
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: KzZSjhkx3lMbNMBaPL7IKoVvm35xKFLSFpuNiF7ledo
 id: post.photo.default

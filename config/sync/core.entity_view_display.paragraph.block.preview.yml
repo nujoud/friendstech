@@ -10,14 +10,8 @@ dependencies:
     - field.field.paragraph.block.field_block_title
     - paragraphs.paragraphs_type.block
   module:
-    - field_layout
-    - layout_discovery
     - link
     - social_landing_page
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 43y_LiuWfiXze3i3lwXLJaXLvecy63cSsrUkpPG-XEM
 id: paragraph.block.preview

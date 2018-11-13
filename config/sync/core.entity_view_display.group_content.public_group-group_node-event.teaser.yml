@@ -5,13 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.group_content.teaser
     - group.content_type.public_group-group_node-event
-  module:
-    - field_layout
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: aOmV7jAQFSdEvivhKQAEqXm2Eyv7oSRpGhuBcWDFDDc
 id: group_content.public_group-group_node-event.teaser

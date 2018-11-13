@@ -20,13 +20,7 @@ dependencies:
     - image.style.social_large
     - profile.type.profile
   module:
-    - field_layout
     - image
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 36YBcEJOfzRmcrxHHk5Hr64CxaYaaknucEukhTeIBQU
 id: profile.profile.hero

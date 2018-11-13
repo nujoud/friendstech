@@ -20,13 +20,7 @@ dependencies:
     - image.style.social_medium
     - profile.type.profile
   module:
-    - field_layout
     - image
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: kCAIbaVa2tzl0O1J32FwxmP-C88kjajsk134g96iRKE
 id: profile.profile.table

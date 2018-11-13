@@ -16,16 +16,10 @@ dependencies:
     - node.type.event
   module:
     - address
-    - field_layout
     - file
     - group_core_comments
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: dCGz6G01KpyFxVZYWAL0XFWzuSy-U8kjBTW2gS7i8zg
 id: node.event.default

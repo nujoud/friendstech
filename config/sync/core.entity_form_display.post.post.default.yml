@@ -11,12 +11,6 @@ dependencies:
     - social_post.post_type.post
   module:
     - dropdown
-    - field_layout
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: DetPMoKU2Q7vOFGCjoO00gpsfVk-MxIHEWexOXNgbkI
 id: post.post.default

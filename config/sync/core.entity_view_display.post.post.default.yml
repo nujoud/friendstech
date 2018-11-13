@@ -10,15 +10,9 @@ dependencies:
     - field.field.post.post.field_visibility
     - social_post.post_type.post
   module:
-    - field_layout
-    - layout_discovery
     - social_post
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: JNBwWHCvAmeyGNkIo_1Kt38Bp6d31CU8MNgWNQ2Xd-E
 id: post.post.default

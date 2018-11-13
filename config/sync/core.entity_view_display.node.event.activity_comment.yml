@@ -18,14 +18,8 @@ dependencies:
   module:
     - address
     - datetime
-    - field_layout
     - image
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: G-X4pB9myNKASARy8vDn9bfVJo5PcoGEN0DpQSqL7GA
 id: node.event.activity_comment

@@ -10,9 +10,7 @@ dependencies:
     - node.type.landing_page
   module:
     - field_group
-    - field_layout
     - google_map_field
-    - layout_discovery
     - paragraphs
     - path
     - social_landing_page
@@ -32,6 +30,7 @@ third_party_settings:
         id: title
         classes: card
       label: Title
+      region: hidden
     group_sections:
       children:
         - field_landing_page_section
@@ -45,9 +44,7 @@ third_party_settings:
         id: sections
         classes: card
       label: Sections
-  field_layout:
-    id: layout_onecol
-    settings: {  }
+      region: hidden
 _core:
   default_config_hash: ZmNvrc200HUdqH2M5CVzebvr-UKPAQWa7mq4XhhrYNU
 id: node.landing_page.default
@@ -63,7 +60,7 @@ content:
     third_party_settings: {  }
   field_content_visibility:
     type: options_buttons
-    weight: 2
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -80,13 +77,13 @@ content:
     third_party_settings: {  }
     region: content
   field_map:
-    weight: 122
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: google_map_field_default
     region: content
   field_plugin:
-    weight: 121
+    weight: 5
     settings:
       plugin_id: ''
       settings: {  }
@@ -115,7 +112,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 1
+    weight: 3
     region: content
     settings:
       size: 60

@@ -7,15 +7,9 @@ dependencies:
     - field.field.event_enrollment.event_enrollment.field_enrollment_status
     - field.field.event_enrollment.event_enrollment.field_event
   module:
-    - field_layout
-    - layout_discovery
     - options
     - social_event
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 0mDgF3IhERBKLYvTLFI45QV09gC7cc2ebSU7ZzfaV0g
 id: event_enrollment.event_enrollment.default

@@ -7,8 +7,6 @@ dependencies:
     - field.field.block_content.platform_intro.field_text_block
   module:
     - field_group
-    - field_layout
-    - layout_discovery
     - text
 third_party_settings:
   field_group:
@@ -24,9 +22,6 @@ third_party_settings:
         classes: ''
         id: ''
         required_fields: true
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: 8TUFmFkJcvfyHRGY8yfnwsKNbxxgLXHZM021Bc1Rs30
 id: block_content.platform_intro.default

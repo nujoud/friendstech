@@ -10,13 +10,7 @@ dependencies:
     - paragraphs.paragraphs_type.block
   module:
     - block_field
-    - field_layout
-    - layout_discovery
     - link
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: SR2YBUbHjJrXJOcCZKVGY-fZ-ptg83W2KbrjqdseU68
 id: paragraph.block.default

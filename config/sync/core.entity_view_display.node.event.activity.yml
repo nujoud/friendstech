@@ -18,15 +18,9 @@ dependencies:
   module:
     - address
     - datetime
-    - field_layout
     - image
-    - layout_discovery
     - social_core
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: dms6JuNSXZ52KLXyKKUPeNtqidZYzlWStfq18X2AIKE
 id: node.event.activity

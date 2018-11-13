@@ -12,9 +12,7 @@ dependencies:
   module:
     - address
     - field_group
-    - field_layout
     - image_widget_crop
-    - layout_discovery
     - path
     - text
 third_party_settings:
@@ -46,9 +44,6 @@ third_party_settings:
         classes: ''
         id: ''
         required_fields: true
-  field_layout:
-    id: layout_onecol
-    settings: {  }
 _core:
   default_config_hash: vJiO63s6EGIo4vUbw-QIpAn68gtD9saTVivUmk_Xm5g
 id: group.closed_group.default
