@@ -13,8 +13,14 @@ dependencies:
     - image.style.social_featured
     - node.type.topic
   module:
+    - field_layout
     - image
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: dNJMuud7mVgH76B3uilYl9XRl7eQ2tLTqDLVxFekf5A
 id: node.topic.featured

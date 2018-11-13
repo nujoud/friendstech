@@ -12,9 +12,15 @@ dependencies:
     - image.style.social_x_large
     - node.type.page
   module:
+    - field_layout
     - image
+    - layout_discovery
     - social_core
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 5_cDtD3n1om6NPR11IocvRwoT_A2w0m_L9uKsqaP2Pw
 id: node.page.activity

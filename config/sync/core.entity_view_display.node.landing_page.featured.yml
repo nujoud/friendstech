@@ -8,7 +8,13 @@ dependencies:
     - field.field.node.landing_page.field_landing_page_section
     - node.type.landing_page
   module:
+    - field_layout
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: nvrQu61YlL3ZU9opxUd5p1uEB7TQiKkdu5S2x_mg8Fk
 id: node.landing_page.featured

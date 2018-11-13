@@ -6,7 +6,13 @@ dependencies:
     - field.field.paragraph.section.field_section_paragraph
     - paragraphs.paragraphs_type.section
   module:
+    - field_layout
+    - layout_discovery
     - paragraphs
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: rpx1qjn3LmbnDURDcmWXhEaRzR1xSgo1SZkqUBtY3RE
 id: paragraph.section.default

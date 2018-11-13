@@ -13,8 +13,14 @@ dependencies:
     - social_post.post_type.photo
   module:
     - dropdown
+    - field_layout
     - image
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: OAqaKqvyG0qV7uWCtJII90dNRsIue6gDIY9nwPe23MU
 id: post.photo.default

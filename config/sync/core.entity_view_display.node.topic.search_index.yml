@@ -14,8 +14,14 @@ dependencies:
     - node.type.topic
   module:
     - comment
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: RCMgjjZezJmM-cH0XFTh9oSP3doP96oG5Lmh_LvsP6E
 id: node.topic.search_index

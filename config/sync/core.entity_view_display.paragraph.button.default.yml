@@ -8,8 +8,14 @@ dependencies:
     - field.field.paragraph.button.field_button_style
     - paragraphs.paragraphs_type.button
   module:
+    - field_layout
+    - layout_discovery
     - link
     - options
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: QpXpyns3shMS30Z0LiI35GBp8qHNnefe9lhGR_LUMNU
 id: paragraph.button.default

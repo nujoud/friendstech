@@ -12,9 +12,15 @@ dependencies:
     - node.type.page
   module:
     - comment
+    - field_layout
     - file
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: bxHknQvsa_esZnLYlew8T028H5oUvqVzJpyf_dpyGGc
 id: node.page.default

@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - field_group
+    - field_layout
+    - layout_discovery
     - user
 third_party_settings:
   field_group:
@@ -31,6 +33,9 @@ third_party_settings:
         description: ''
         required_fields: true
       label: 'Locale settings'
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: nZZPpvLP8s_Dh4dP5GZ6gi0-aPLc0vzbmVDbbx2SeiE
 id: user.user.default

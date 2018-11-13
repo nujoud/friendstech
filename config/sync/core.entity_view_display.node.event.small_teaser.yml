@@ -16,7 +16,13 @@ dependencies:
     - node.type.event
   module:
     - datetime
+    - field_layout
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: qUwXhhweystjCIhPDre3iTASe8pCTgI6t1FEo9ROVHA
 id: node.event.small_teaser

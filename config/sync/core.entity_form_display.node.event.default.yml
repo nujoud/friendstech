@@ -19,8 +19,10 @@ dependencies:
     - comment
     - datetime
     - field_group
+    - field_layout
     - file
     - image_widget_crop
+    - layout_discovery
     - path
     - text
 third_party_settings:
@@ -101,6 +103,9 @@ third_party_settings:
         required_fields: true
         id: attachments
         classes: card
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 3xO1b_imnyjtyWL6X99E1p9hCFynOpFfSNTDEzp3_1o
 id: node.event.default

@@ -11,8 +11,14 @@ dependencies:
     - field.field.post.post.field_visibility
     - social_post.post_type.post
   module:
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 9gulmheZg0DioReaTCSx_BhT3fuYtbBa_3MgZ-VDk6g
 id: post.post.activity_comment

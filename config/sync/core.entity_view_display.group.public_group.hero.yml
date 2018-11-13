@@ -12,7 +12,13 @@ dependencies:
     - image.style.social_xx_large
   module:
     - address
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 2TmBPQ3Px_qqTFc7aKYtOlmh9FMfevGYtGsK0n17lo8
 id: group.public_group.hero

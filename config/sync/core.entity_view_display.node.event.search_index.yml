@@ -17,8 +17,14 @@ dependencies:
     - node.type.event
   module:
     - comment
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: DE1MjFY8LFtCgV5ZJnwxTmp8-t59v3gvXZzmNK1SYzo
 id: node.event.search_index

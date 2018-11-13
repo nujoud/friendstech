@@ -5,10 +5,20 @@ dependencies:
   config:
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
+    - field.field.node.landing_page.field_map
+    - field.field.node.landing_page.field_plugin
     - node.type.landing_page
   module:
+    - block_field
     - entity_reference_revisions
+    - field_layout
+    - google_map_field
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: vjb58u-Za1jLIUTwtNGHuEldjqMM1oHJeYdoncj0ZMo
 id: node.landing_page.default
@@ -24,6 +34,20 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    region: content
+  field_map:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: google_map_field_default
+    region: content
+  field_plugin:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
     region: content
   flag_follow_content:
     weight: 10

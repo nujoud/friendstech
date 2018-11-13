@@ -13,7 +13,13 @@ dependencies:
   module:
     - activity_creator
     - dynamic_entity_reference
+    - field_layout
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: '-GW4pfFUFKfiJAzpJXoM6YSrT51Jy3bCqGVVMgPpv_I'
 id: activity.activity.default

@@ -5,6 +5,13 @@ dependencies:
   config:
     - comment.type.comment
     - field.field.comment.comment.field_comment_body
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: x956z7YSUuUg0Zb0LMqxWu-22u-EfZJXUEn2HUKeNhQ
 id: comment.comment.default

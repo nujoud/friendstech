@@ -10,8 +10,14 @@ dependencies:
     - image.style.medium
     - paragraphs.paragraphs_type.hero
   module:
+    - field_layout
     - image_widget_crop
+    - layout_discovery
     - paragraphs
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: '-jnoKHqDvzqqvMR52I9ReuGyh8pZaP_NUOdP9xFMIQU'
 id: paragraph.hero.default

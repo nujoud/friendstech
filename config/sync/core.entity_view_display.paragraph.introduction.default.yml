@@ -9,8 +9,14 @@ dependencies:
     - field.field.paragraph.introduction.field_introduction_title
     - paragraphs.paragraphs_type.introduction
   module:
+    - field_layout
+    - layout_discovery
     - link
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: tEBYiw2czslTCvDYt8t39gZ8rmOEdB7Y87ebsvQbTKI
 id: paragraph.introduction.default

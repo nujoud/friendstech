@@ -13,9 +13,15 @@ dependencies:
     - image.style.social_x_large
     - node.type.topic
   module:
+    - field_layout
     - image
+    - layout_discovery
     - options
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: i9e-58eA8WY1XqEK9fM255whIFjXw2dtS2dWX5hW0lY
 id: node.topic.teaser

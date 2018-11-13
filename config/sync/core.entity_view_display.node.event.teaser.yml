@@ -18,9 +18,15 @@ dependencies:
   module:
     - address
     - datetime
+    - field_layout
     - image
+    - layout_discovery
     - options
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 80pTIWGki1iJfTggrKetbVcdBrz0rIdIuvn1UruIOx0
 id: node.event.teaser

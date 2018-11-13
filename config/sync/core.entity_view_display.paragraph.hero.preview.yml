@@ -12,7 +12,13 @@ dependencies:
     - paragraphs.paragraphs_type.hero
   module:
     - entity_reference_revisions
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 6X-BQbeIRn4jxiCRMHpGyeqhwmhnuUVs9y1qFOf4Cm8
 id: paragraph.hero.preview

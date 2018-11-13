@@ -9,6 +9,13 @@ dependencies:
     - field.field.group.closed_group.field_group_image
     - field.field.group.closed_group.field_group_location
     - group.type.closed_group
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: MisYAr1JuSNK1WYaPeL2QGrq0Hz57gigj0KWEdH0aUc
 id: group.closed_group.stream

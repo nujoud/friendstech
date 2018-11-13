@@ -5,11 +5,17 @@ dependencies:
   config:
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
+    - field.field.node.landing_page.field_map
+    - field.field.node.landing_page.field_plugin
     - node.type.landing_page
   module:
     - field_group
+    - field_layout
+    - google_map_field
+    - layout_discovery
     - paragraphs
     - path
+    - social_landing_page
 third_party_settings:
   field_group:
     group_content:
@@ -39,6 +45,9 @@ third_party_settings:
         id: sections
         classes: card
       label: Sections
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: ZmNvrc200HUdqH2M5CVzebvr-UKPAQWa7mq4XhhrYNU
 id: node.landing_page.default
@@ -69,6 +78,20 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings: {  }
+    region: content
+  field_map:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: google_map_field_default
+    region: content
+  field_plugin:
+    weight: 121
+    settings:
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
     region: content
   langcode:
     type: language_select

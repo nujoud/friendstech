@@ -20,7 +20,13 @@ dependencies:
     - image.style.social_featured
     - profile.type.profile
   module:
+    - field_layout
     - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 2eI1l6I_aT8X7dWT0AdLLvY9lt8CfvakJK8NGnUANoQ
 id: profile.profile.featured

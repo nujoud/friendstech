@@ -13,8 +13,10 @@ dependencies:
   module:
     - comment
     - field_group
+    - field_layout
     - file
     - image_widget_crop
+    - layout_discovery
     - path
     - text
 third_party_settings:
@@ -68,6 +70,9 @@ third_party_settings:
         required_fields: true
         id: visibility
         classes: 'card '
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: kHmVEBVF0GCXIpHfL7z0JV8p8plq3zgOM7S2BQVBAoM
 id: node.page.default

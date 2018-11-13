@@ -14,8 +14,10 @@ dependencies:
   module:
     - comment
     - field_group
+    - field_layout
     - file
     - image_widget_crop
+    - layout_discovery
     - path
     - text
 third_party_settings:
@@ -71,6 +73,9 @@ third_party_settings:
         required_fields: true
         id: attachments
         classes: 'card '
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: 7gp9MbxXU7HOGmCzXk8LMVCxpLv_WPYpnFy49fW_2os
 id: node.topic.default

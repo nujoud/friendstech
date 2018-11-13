@@ -12,7 +12,13 @@ dependencies:
     - field.field.node.topic.field_topic_type
     - node.type.topic
   module:
+    - field_layout
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: skShdvdjAuwtM7EWsow0qYhs8LBUh4yqIKyy-I-jFUo
 id: node.topic.small_teaser

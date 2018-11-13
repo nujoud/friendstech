@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - group.content_type.public_group-group_node-event
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: WEiWb02IZr6Lk5qC2Z7o0VVu4512W0iw5jWi1KDeZKI
 id: group_content.public_group-group_node-event.default
