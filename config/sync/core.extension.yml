@@ -61,6 +61,7 @@ module:
   r4032login: 0
   search_api: 0
   search_api_db: 0
+  simple_gmap: 0
   social_activity: 0
   social_comment: 0
   social_core: 0

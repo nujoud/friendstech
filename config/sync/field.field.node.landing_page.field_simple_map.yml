@@ -1,0 +1,19 @@
+uuid: 69a7e9bd-7436-4485-b25c-acccf3b82546
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_simple_map
+    - node.type.landing_page
+id: node.landing_page.field_simple_map
+field_name: field_simple_map
+entity_type: node
+bundle: landing_page
+label: 'simple map'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

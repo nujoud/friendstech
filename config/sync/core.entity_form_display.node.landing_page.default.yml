@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.landing_page.field_landing_page_section
     - field.field.node.landing_page.field_map
     - field.field.node.landing_page.field_plugin
+    - field.field.node.landing_page.field_simple_map
     - node.type.landing_page
   module:
     - field_group
@@ -89,6 +90,14 @@ content:
       settings: {  }
     third_party_settings: {  }
     type: block_field_default
+    region: content
+  field_simple_map:
+    weight: 121
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   langcode:
     type: language_select
