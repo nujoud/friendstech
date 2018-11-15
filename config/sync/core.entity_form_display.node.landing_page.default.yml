@@ -5,13 +5,11 @@ dependencies:
   config:
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
-    - field.field.node.landing_page.field_map
     - field.field.node.landing_page.field_plugin
     - field.field.node.landing_page.field_simple_map
     - node.type.landing_page
   module:
     - field_group
-    - google_map_field
     - paragraphs
     - path
     - social_landing_page
@@ -22,7 +20,7 @@ third_party_settings:
         - title
         - field_content_visibility
       parent_name: ''
-      weight: 0
+      weight: 9
       format_type: fieldset
       format_settings:
         label: Title
@@ -35,8 +33,9 @@ third_party_settings:
     group_sections:
       children:
         - field_landing_page_section
+        - field_simple_map
       parent_name: ''
-      weight: 1
+      weight: 10
       format_type: fieldset
       format_settings:
         label: Sections
@@ -55,7 +54,7 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -77,14 +76,8 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
     region: content
-  field_map:
-    weight: 6
-    settings: {  }
-    third_party_settings: {  }
-    type: google_map_field_default
-    region: content
   field_plugin:
-    weight: 5
+    weight: 3
     settings:
       plugin_id: ''
       settings: {  }
@@ -92,7 +85,7 @@ content:
     type: block_field_default
     region: content
   field_simple_map:
-    weight: 121
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -101,14 +94,14 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 2
+    weight: 0
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 7
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -116,7 +109,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 6
     region: content
     third_party_settings: {  }
   title:
@@ -129,7 +122,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60

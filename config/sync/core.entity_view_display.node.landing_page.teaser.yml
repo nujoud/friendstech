@@ -6,8 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
-    - field.field.node.landing_page.field_map
     - field.field.node.landing_page.field_plugin
+    - field.field.node.landing_page.field_simple_map
     - node.type.landing_page
   module:
     - user
@@ -63,6 +63,6 @@ content:
 hidden:
   field_content_visibility: true
   field_landing_page_section: true
-  field_map: true
   field_plugin: true
+  field_simple_map: true
   langcode: true

@@ -5,14 +5,12 @@ dependencies:
   config:
     - field.field.node.landing_page.field_content_visibility
     - field.field.node.landing_page.field_landing_page_section
-    - field.field.node.landing_page.field_map
     - field.field.node.landing_page.field_plugin
     - field.field.node.landing_page.field_simple_map
     - node.type.landing_page
   module:
     - block_field
     - entity_reference_revisions
-    - google_map_field
     - simple_gmap
     - user
 _core:
@@ -31,16 +29,9 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
-  field_map:
-    weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: google_map_field_default
-    region: content
   field_plugin:
     weight: 102
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: block_field

@@ -1,0 +1,16 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+      empty:
+        area_text_custom:
+          content: 'لا توجد مواضيع في هذه المجموعة'
+      arguments:
+        gid:
+          exception:
+            title: الكل
+  page_group_topics:
+    display_title: الصفحة

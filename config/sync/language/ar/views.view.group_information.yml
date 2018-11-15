@@ -1,0 +1,13 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: إنتقاء
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        id:
+          exception:
+            title: الكل
+  page_group_about:
+    display_title: الصفحة

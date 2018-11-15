@@ -1,0 +1,176 @@
+# عربية translation of nujoud
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-24 13:28+0300\n"
+"PO-Revision-Date: 2018-10-24 13:28+0300\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Apply"
+msgstr "إنتقاء"
+
+msgid "Notification"
+msgstr "إخطار"
+
+msgid "Create event"
+msgstr "انشاء حدث"
+
+msgid "Create event in group"
+msgstr "إنشاء حدث في المجموعة"
+
+msgid "Create topic"
+msgstr "إنشاء الموضوع"
+
+msgid "Create topic in group"
+msgstr "إنشاء موضوع في مجموعة"
+
+msgid "Public - visible to everyone including people who are not a member"
+msgstr ""
+"عامة - مرئية للجميع بما في ذلك الأشخاص "
+"غير الأعضاء"
+
+msgid "Community - visible only to logged in members"
+msgstr "المجتمع - مرئية للأعضاء المسجلين فقط"
+
+msgid "Group members - visible only to group members"
+msgstr ""
+"أعضاء المجموعة - مرئية فقط لأعضاء "
+"المجموعة"
+
+msgid "No events found for this user"
+msgstr "لم يتم العثور على أحداث لهذا المستخدم"
+
+msgid "Upcoming events"
+msgstr "الأحداث القادمة"
+
+msgid "No events found"
+msgstr "لم يتم العثور على أحداث"
+
+msgid "No upcoming events you have enrolled for"
+msgstr "لا توجد أحداث قادمة قمت بالتسجيل بها"
+
+msgid "My upcoming events"
+msgstr "أحداثي القادممة"
+
+msgid "All my upcoming events"
+msgstr "جميع أحداثي القادمة"
+
+msgid "All events"
+msgstr "جميع الأحداث "
+
+msgid "No upcoming events in this group"
+msgstr "لا أحداث قادمة في هذه المجموعة"
+
+msgid "Post"
+msgstr "لصق"
+
+msgid "Community"
+msgstr "المجتمع"
+
+msgid "Visible only to members who are logged in"
+msgstr ""
+"مرئي فقط للأعضاء الذين قاموا بتسجيل "
+"الدخول"
+
+msgid "Group members"
+msgstr "أعضاء المجموعة"
+
+msgid "Visible only to group members"
+msgstr "مرئية فقط لأعضاء المجموعة"
+
+msgid "Newest members"
+msgstr "الأعضاء الجدد"
+
+msgid "All members"
+msgstr "كل الأعضاء"
+
+msgid "Latest topics"
+msgstr "أحدث المواضيع"
+
+msgid "All topics"
+msgstr "جميع الناقشات"
+
+msgid "No topics found"
+msgstr "لم يتم العثور على مواضيع"
+
+msgid "Newest topics"
+msgstr "المواضيع الجديدة"
+
+msgid "Latest group topics"
+msgstr "احدث مواضيع المجموعة"
+
+msgid "No topics in this group"
+msgstr "لا توجد مواضيع في هذه المجموعة"
+
+msgid "No topics found for this user"
+msgstr "لم يتم العثور على مواضيع لهذا المستخدم"
+
+msgid "topic"
+msgstr "موضوع"
+
+msgid "No members in this group"
+msgstr "لا أعضاء في هذه المجموعة"
+
+msgid "All groups"
+msgstr "جميع المجموعات"
+
+msgid "Newest groups"
+msgstr "المجموعات الجديدة"
+
+msgid "Say something to the Community"
+msgstr "قل للمجتع ما يحلو لك"
+
+msgid "Add image"
+msgstr "إضافة صورة"
+
+msgid "New event"
+msgstr "حدث جديد"
+
+msgid "New topic"
+msgstr "موضوع جديد"
+
+msgid "New group"
+msgstr "مجموعة جديدة"
+
+msgid "My events"
+msgstr "أحداثي"
+
+msgid "View my topics"
+msgstr "عرض موضوعاتي"
+
+msgid "My topics"
+msgstr "موضوعاتي"
+
+msgid "View my groups"
+msgstr "عرض مجموعاتي"
+
+msgid "My groups"
+msgstr "مجموعاتي"
+
+msgid "Can not be changed once a group is created."
+msgstr "لا يمكن تغييرها بمجرد إنشاء مجموعة."
+
+msgid "There are no groups yet."
+msgstr "لا توجد مجموعات حتى الآن."
+
+msgid "Add group"
+msgstr "إضافة مجموعة"
+
+msgid "Edit group roles"
+msgstr "تحرير أدوار المجموعة"
+
+msgid "Add group type"
+msgstr "أضف نوع المجموعة"
+
+msgid "- Any -"
+msgstr "- أي-"
+
+msgid "Add a group"
+msgstr "أضف مجموعة"
+

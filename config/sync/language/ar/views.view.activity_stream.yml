@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: إنتقاء
+          reset_button_label: 'إعادة الضبط'
+  page_activity_stream:
+    display_title: الصفحة

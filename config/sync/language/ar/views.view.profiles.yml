@@ -1,0 +1,19 @@
+label: 'ملفات المستخدمين'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: إنتقاء
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        uid:
+          exception:
+            title: الكل
+        type:
+          exception:
+            title: الكل
+        status:
+          exception:
+            title: الكل
+      title: 'ملفات المستخدمين'

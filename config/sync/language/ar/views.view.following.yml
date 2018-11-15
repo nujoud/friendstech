@@ -1,0 +1,24 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: إنتقاء
+          reset_button_label: 'إعادة الضبط'
+      fields:
+        title:
+          label: العنوان
+        type:
+          label: النوع
+        link_flag:
+          label: عمليات
+      filters:
+        type:
+          expose:
+            label: 'نوع المحتوى'
+      arguments:
+        uid:
+          exception:
+            title: الكل
+  following:
+    display_title: الصفحة

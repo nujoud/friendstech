@@ -1,0 +1,41 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+      title: 'الأحداث القادمة'
+      empty:
+        area_text_custom:
+          content: 'لم يتم العثور على أحداث'
+  block_my_upcoming_events:
+    display_options:
+      arguments:
+        field_account_target_id:
+          exception:
+            title: الكل
+      empty:
+        area_text_custom:
+          content: 'لا توجد أحداث قادمة قمت بالتسجيل بها'
+      title: 'أحداثي القادممة'
+      use_more_text: 'جميع أحداثي القادمة'
+  page_community_events:
+    display_options:
+      filters:
+        field_event_date_value:
+          group_info:
+            group_items:
+              1:
+                title: 'الأحداث القادمة'
+      title: 'جميع الأحداث '
+  upcoming_events_group:
+    display_options:
+      arguments:
+        gid:
+          exception:
+            title: الكل
+      empty:
+        area_text_custom:
+          content: 'لا أحداث قادمة في هذه المجموعة'
+      title: 'الأحداث القادمة'

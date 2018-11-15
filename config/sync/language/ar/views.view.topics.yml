@@ -1,0 +1,31 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+      title: المناقشات
+      empty:
+        area:
+          content:
+            value: 'لم يتم العثور على مواضيع لهذا المستخدم'
+      arguments:
+        uid:
+          exception:
+            title: الكل
+  block_user_topics:
+    display_title: الصندوق
+    display_options:
+      arguments:
+        uid:
+          exception:
+            title: الكل
+      use_more_text: 'جميع الناقشات'
+  page_profile:
+    display_title: الصفحة
+    display_options:
+      menu:
+        title: المناقشات
+      tab_options:
+        title: المناقشات

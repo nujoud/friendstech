@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: إنتقاء
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        entity_type:
+          exception:
+            title: الكل
+        entity_id:
+          exception:
+            title: الكل
